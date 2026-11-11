@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "coordinateSystem": "normalized percentage coordinates; origin top-left",
+  "maps": [
+    {
+      "id": "hub",
+      "image": "assets/images/v3/map-hub-3d.png",
+      "bounds": { "minX": 7, "maxX": 93, "minY": 23, "maxY": 88 },
+      "spawn": { "x": 50, "y": 84 },
+      "solids": [{ "x1": 42, "x2": 58, "y1": 29, "y2": 47 }],
+      "targets": [{ "id": "portal", "x": 72, "y": 30 }]
+    },
+    {
+      "id": "rules-city",
+      "image": "assets/images/v3/map-rules-city-3d.png",
+      "bounds": { "minX": 7, "maxX": 93, "minY": 25, "maxY": 88 },
+      "spawn": { "x": 50, "y": 84 },
+      "solids": [{ "x1": 39, "x2": 61, "y1": 23, "y2": 38 }],
+      "targets": [
+        { "id": "envelope", "x": 68, "y": 70 },
+        { "id": "fallen-papers", "x": 28, "y": 64 },
+        { "id": "reward-rule", "x": 76, "y": 43 }
+      ]
+    },
+    {
+      "id": "persuasion-forest",
+      "image": "assets/images/v3/map-persuasion-forest-3d.png",
+      "bounds": { "minX": 7, "maxX": 93, "minY": 22, "maxY": 89 },
+      "spawn": { "x": 50, "y": 85 },
+      "solids": [{ "x1": 43, "x2": 57, "y1": 23, "y2": 37 }],
+      "targets": [
+        { "id": "rumor", "x": 25, "y": 44 },
+        { "id": "investigation", "x": 55, "y": 58 },
+        { "id": "repair", "x": 77, "y": 67 }
+      ]
+    },
+    {
+      "id": "cooperation-island",
+      "image": "assets/images/v3/map-cooperation-island-3d.png",
+      "bounds": { "minX": 7, "maxX": 93, "minY": 24, "maxY": 89 },
+      "spawn": { "x": 50, "y": 86 },
+      "solids": [{ "x1": 43, "x2": 57, "y1": 31, "y2": 49 }],
+      "targets": [
+        { "id": "envelope", "x": 67, "y": 71 },
+        { "id": "treasurer", "x": 31, "y": 59 },
+        { "id": "reward", "x": 77, "y": 45 },
+        { "id": "class-message", "x": 23, "y": 41 }
+      ]
+    }
+  ]
+}
